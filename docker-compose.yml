@@ -18,4 +18,4 @@ services:
     ports:
       - '8082:80'
     volumes:
-      - /data/pgadmin:/var/lib/pgadmin
+      - ./data/pgadmin:/var/lib/pgadmin
